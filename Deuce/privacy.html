@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Deuce</title>
+<style>
+  :root {
+    --bg: #0a0f1e;
+    --card: #12192e;
+    --border: rgba(255,255,255,0.08);
+    --text: #eef1f8;
+    --text-dim: #9aa3b8;
+    --accent: #c6d400;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f7f8fb;
+      --card: #ffffff;
+      --border: rgba(0,0,0,0.08);
+      --text: #10131c;
+      --text-dim: #55607a;
+      --accent: #6b7a00;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 56px 20px 80px;
+  }
+  h1 {
+    font-size: 1.9rem;
+    margin: 0 0 4px;
+    letter-spacing: -0.02em;
+  }
+  .updated {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin: 0 0 40px;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin: 40px 0 12px;
+    letter-spacing: -0.01em;
+  }
+  p, li { color: var(--text); }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 1.3em; }
+  li { margin-bottom: 8px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin: 0 0 8px;
+  }
+  .summary {
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+  a { color: var(--accent); }
+  code {
+    background: var(--border);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Privacy Policy</h1>
+  <p class="updated">Deuce — for iPhone and Apple Watch · Last updated October 14, 2026</p>
+
+  <div class="card summary">
+    Deuce has no accounts, no ads, no analytics and no server. Your matches
+    stay on your devices — and, only if you turn it on, in your own private
+    iCloud. The developer never receives any of your data.
+  </div>
+
+  <h2>Who we are</h2>
+  <p>Deuce is developed by Tiago Oliveira (“the developer”). This policy
+     explains what the app stores, where it stores it, and what you control.
+     It applies to the Deuce app for iPhone and its companion app for
+     Apple Watch.</p>
+
+  <h2>What the app stores, and where</h2>
+  <p>Deuce records the matches you score: scores, the point-by-point
+     history, and the opponents, clubs and courts you add. This is stored
+     only in places you control:</p>
+  <ul>
+    <li><strong>On your iPhone and Apple Watch</strong>, by default.</li>
+    <li><strong>Your own private iCloud account</strong>, only if you turn on
+        <em>Sync with iCloud</em> in Settings (it's off by default). This uses
+        Apple's CloudKit private database, the same mechanism apps like Notes
+        use to sync your data between your own devices. The developer cannot
+        see or access it.</li>
+  </ul>
+  <p>Your iPhone and Apple Watch exchange match data directly with each
+     other (using Apple's Watch Connectivity) so a match scored on one can
+     be followed and saved on the other. This never passes through a server
+     operated by the developer — no such server exists.</p>
+
+  <h2>Health data</h2>
+  <p>If you allow it, Deuce uses Apple HealthKit to record a tennis workout
+     during matches played on Apple Watch — including heart rate and active
+     energy — and to show that data in the match report on your iPhone.</p>
+  <ul>
+    <li>Health data is written to and read from your own Health app, using
+        Apple's standard HealthKit APIs.</li>
+    <li>Deuce stores only a reference to the workout (its identifier) with
+        the match. Heart-rate samples and other health data are never copied
+        into Deuce's own storage, never stored in iCloud by Deuce, and never
+        sent anywhere.</li>
+    <li>Health data is not used for advertising, marketing or any purpose
+        other than showing you your own match stats, and is never shared
+        with anyone.</li>
+    <li>Scoring works fully without Health access. You can change access at
+        any time in the Health app or in Settings → Privacy &amp; Security →
+        Health.</li>
+  </ul>
+
+  <h2>Photos</h2>
+  <p>If you choose to save a match card image, Deuce asks for permission to
+     <em>add</em> it to your photo library. It cannot read your photos.</p>
+
+  <h2>Sharing and exporting</h2>
+  <p>You can share a match card image or export a match's data as a file.
+     This only happens when you choose to, through the standard iOS share
+     sheet, and the content goes only where you send it.</p>
+
+  <h2>Diagnostics</h2>
+  <p>Deuce uses Apple's MetricKit to keep crash and hang reports on your
+     device, so a problem can be understood if you report one. These
+     reports:</p>
+  <ul>
+    <li>Are generated by iOS and stored on your device.</li>
+    <li>Are never sent anywhere automatically.</li>
+    <li>Can be viewed and shared from Settings → Diagnostics, only if you
+        choose to — for example, attached to an email when reporting a
+        bug.</li>
+  </ul>
+
+  <h2>Tracking, analytics and advertising</h2>
+  <p>None. Deuce contains no analytics, advertising or third-party SDKs and
+     does not track you across apps or websites owned by other companies.</p>
+
+  <h2>Keeping and deleting your data</h2>
+  <ul>
+    <li><strong>A match:</strong> swipe left on it in History and tap Delete. If
+        it has a Health workout, you can choose to delete that too.</li>
+    <li><strong>Everything on a device:</strong> delete the app.</li>
+    <li><strong>iCloud copy:</strong> turn off Sync with iCloud, then remove
+        Deuce's data from your iCloud storage settings on any of your
+        devices.</li>
+    <li><strong>Workouts:</strong> manage or delete them in the Health app.</li>
+  </ul>
+
+  <h2>Your rights</h2>
+  <p>Because the developer does not collect, receive or store any personal
+     data, there is nothing held by the developer to access, correct, export
+     or delete — all of it is on your devices and under your control as
+     described above. If you have any question about your data, get in
+     touch.</p>
+
+  <h2>Children's privacy</h2>
+  <p>Deuce collects no personal data from anyone, of any age.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the new version will be posted on this page
+     with a new “last updated” date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or the app:
+     <a href="mailto:deuce@tiagomiguel.dev">deuce@tiagomiguel.dev</a></p>
+
+  <footer>Deuce · <a href="support.html">Support</a></footer>
+</div>
+</body>
+</html>
